@@ -1,0 +1,67 @@
+{
+	"empty": {
+	  "id": "empty",
+	  "name": "Vide",
+	  "image": "assets/images/terrain/empty.png",
+	  "walkable": false,
+	  "damagePerSecond": 999999, 
+	  "slowFactor": 1.0,
+	  "color": "#000000",
+	  "collidable": true
+	},
+
+  "grass": {
+    "id": "grass",
+    "name": "Herbe",
+    "image": "assets/images/terrain/grass.png",
+    "walkable": true,
+    "damagePerSecond": 0,
+    "slowFactor": 1.0,
+    "collidable": false
+  },
+  "dirt": {
+    "id": "dirt",
+    "name": "Terre",
+    "image": "assets/images/terrain/dirt.png",
+    "walkable": true,
+    "damagePerSecond": 0,
+    "slowFactor": 1.0,
+    "collidable": false
+  },
+  "sand": {
+    "id": "sand",
+    "name": "Sable",
+    "image": "assets/images/terrain/sand.png",
+    "walkable": true,
+    "damagePerSecond": 0,
+    "slowFactor": 0.8,
+    "collidable": false
+  },
+  "mud": {
+    "id": "mud",
+    "name": "Boue",
+    "image": "assets/images/terrain/mud.png",
+    "walkable": true,
+    "damagePerSecond": 0,
+    "slowFactor": 0.6,
+    "collidable": false
+  },
+  "water": {
+    "id": "water",
+    "name": "Eau",
+    "image": "assets/images/terrain/water.png",
+    "walkable": false,
+    "damagePerSecond": 0,
+    "slowFactor": 0.0,
+    "collidable": true
+  },
+  "lava": {
+    "id": "lava",
+    "name": "Lave",
+    "image": "assets/images/terrain/lava.png",
+    "walkable": true,
+    "damagePerSecond": 10,
+    "slowFactor": 0.7,
+    "collidable": false
+  }
+}

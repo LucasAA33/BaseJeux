@@ -1,0 +1,38 @@
+{
+  "id": "slime_green",
+  "category": "enemy",
+  "name": "Slime vert",
+  "hp": 30,
+  "attack": { "damage": 5, "cooldown": 1.2 },
+  "drops": [
+    { "item": "slime_gel", "min": 1, "max": 2 }
+  ],
+  "sprite": "images/slime_green.png",
+  "animations": {
+    "idle": {
+      "sprite_sheet": "animations/slime_idle.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 4,
+      "duration_ms": 600
+    },
+    "attack": {
+      "sprite_sheet": "animations/slime_attack.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 6,
+      "duration_ms": 500
+    },
+    "die": {
+      "sprite_sheet": "animations/slime_die.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 5,
+      "duration_ms": 400
+    }
+  },
+  "sounds": {
+    "attack": "sfx/slime_attack.wav",
+    "die": "sfx/slime_die.wav"
+  }
+}

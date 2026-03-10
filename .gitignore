@@ -1,0 +1,32 @@
+# fichiers Java compilés
+*.class
+
+# dossier de compilation
+bin/
+target/
+build/
+
+# IDE
+.idea/
+.vscode/
+
+# fichiers système
+.DS_Store
+# Eclipse
+.metadata/
+.project
+.classpath
+.settings/
+
+# Java
+*.class
+bin/
+target/
+build/
+
+# IDE
+.idea/
+.vscode/
+
+# système
+.DS_Store

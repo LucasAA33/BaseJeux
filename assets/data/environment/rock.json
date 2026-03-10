@@ -1,0 +1,60 @@
+{
+  "family": "rocks",
+  "objects": [
+    {
+      "id": "rock_small",
+      "category": "environment",
+      "name": "Petit Rocher",
+      "hp": 20,
+      "drops": [
+        { "item": "stone", "min": 1, "max": 3 }
+      ],
+
+      "sprite": "assets/images/environment/rock_small.png",
+
+      "footprint": { "w": 1, "h": 1 },
+      "spriteSize": { "w": 32, "h": 32 },
+      "anchor": "bottom",
+      "offset": { "x": 0, "y": 0 },
+      "collidable": true
+    },
+
+    {
+      "id": "rock_iron",
+      "category": "environment",
+      "name": "Minerai de Fer",
+      "hp": 40,
+      "drops": [
+        { "item": "stone", "min": 1, "max": 2 },
+        { "item": "iron_ore", "min": 1, "max": 3 }
+      ],
+
+      "sprite": "assets/images/environment/rock_iron.png",
+
+      "footprint": { "w": 1, "h": 1 },
+      "spriteSize": { "w": 32, "h": 32 },
+      "anchor": "bottom",
+      "offset": { "x": 0, "y": 0 },
+      "collidable": true
+    },
+
+    {
+      "id": "rock_gold",
+      "category": "environment",
+      "name": "Minerai d'or",
+      "hp": 50,
+      "drops": [
+        { "item": "stone", "min": 1, "max": 2 },
+        { "item": "gold_ore", "min": 1, "max": 2 }
+      ],
+
+      "sprite": "assets/images/environment/rock_gold.png",
+
+      "footprint": { "w": 1, "h": 1 },
+      "spriteSize": { "w": 32, "h": 32 },
+      "anchor": "bottom",
+      "offset": { "x": 0, "y": 0 },
+      "collidable": true
+    }
+  ]
+}

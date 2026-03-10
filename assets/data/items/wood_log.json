@@ -1,0 +1,9 @@
+{
+  "id": "wood_log",
+  "category": "item",
+  "name": "Bûche de bois",
+  "stackable": true,
+  "max_stack": 99,
+  "sprite": "items/wood_log.png",
+  "description": "Un morceau de bois, utile pour fabriquer des outils et construire."
+}

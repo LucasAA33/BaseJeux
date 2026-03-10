@@ -1,0 +1,11 @@
+{
+  "id": "fist",
+  "name": "Poing",
+  "damage": 5,
+  "attackSpeed": 2.5,
+  "animationTime": 0.2,
+  "range": 2,
+  "shape": "line",
+  "actionCost": 1,
+  "initiativeBonus": 0
+}

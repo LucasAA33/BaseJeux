@@ -1,0 +1,20 @@
+{
+  "id": "villager",
+  "category": "npc",
+  "name": "Villageois",
+  "dialogues": [
+    "Bonjour aventurier !",
+    "Tu veux acheter quelque chose ?",
+    "Fais attention aux monstres dans la forêt..."
+  ],
+  "sprite": "images/villager.png",
+  "animations": {
+    "idle": {
+      "sprite_sheet": "animations/villager_idle.png",
+      "frameWidth": 32,
+      "frameHeight": 48,
+      "frames": 4,
+      "duration_ms": 800
+    }
+  }
+}

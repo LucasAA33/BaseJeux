@@ -1,0 +1,39 @@
+{
+  "family": "building",
+  "objects": [
+    {
+      "id": "house_wood",
+      "category": "building",
+      "name": "Maison en bois",
+
+      "sprite": "assets/images/environment/house_wood.png",
+
+	  "stateSprites": {
+	    "closed": "assets/images/environment/house_wood.png",
+	    "open":   "assets/images/environment/house_wood_opened.png"
+	  },
+
+      "hp": 9999,
+      "collidable": true,
+
+      "footprint": { "w": 5, "h": 3 },
+      "spriteSize": { "w": 256, "h": 256 },
+      "anchor": "bottom",
+      "offset": { "x": -60, "y": 40 },
+
+      "allowedEvents": ["INTERACT"],
+
+      "animations": {
+        "list": {
+          "open": {
+            "sprite_sheet": "assets/images/environment/house_wood_open.png",
+            "frameWidth": 1024,
+            "frameHeight": 1024,
+            "frames": 4,
+            "duration_ms": 250
+          }
+        }
+      }
+    }
+  ]
+}
