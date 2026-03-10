@@ -1,2 +1,54 @@
 # BaseJeux
-2D Java game engine with map editor, JSON object system and tile based world
+
+BaseJeux is a **2D Java game engine** designed to create tile-based RPG games.
+
+The engine provides a **map editor, JSON-driven object system, and gameplay framework** for building RPG-style games similar to tools like RPG Maker.
+
+---
+
+## Features
+
+- 2D tile-based rendering
+- Map editor for creating game worlds
+- JSON-driven object system
+- Environment objects (trees, houses, rocks)
+- NPC system
+- Item system
+- Animation system
+- Interaction system
+- Support for **Action RPG gameplay**
+- Planned support for **Turn-Based RPG gameplay**
+
+---
+
+## Project Architecture
+BaseJeux
+│
+├── src/basejeux
+│ ├── data → JSON loading system
+│ ├── editor → Map editor
+│ ├── gameplay → Game mechanics
+│ ├── model → Game entities and definitions
+│ └── event → Event system
+│
+├── assets
+│ ├── data → JSON object definitions
+│ ├── images → sprites and terrain
+│ └── ui → editor UI icons
+│
+├── lib → external libraries (JSON / GSON)
+
+
+---
+
+## Example JSON Object
+
+Example of an object definition used by the engine:
+
+```json
+{
+  "id": "tree_oak",
+  "category": "environment",
+  "sprite": "assets/images/environment/tree_oak.png",
+  "hp": 10
+}
