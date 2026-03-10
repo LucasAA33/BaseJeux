@@ -27,23 +27,21 @@ The engine is organized into several modules:
 BaseJeux
 │
 ├── src/
-│   └── basejeux/
-│       ├── data/        # JSON loading system
-│       ├── editor/      # Map editor
-│       ├── gameplay/    # Game mechanics and gameplay systems
-│       ├── model/       # Game entities and definitions
-│       └── event/       # Event system
+│ └── basejeux/
+│ ├── data/ # JSON loading system
+│ ├── editor/ # Map editor
+│ ├── gameplay/ # Game mechanics and gameplay systems
+│ ├── model/ # Game entities and definitions
+│ └── event/ # Event system
 │
 ├── assets/
-│   ├── data/            # JSON object definitions (NPCs, items, maps...)
-│   ├── images/          # Sprites and terrain textures
-│   └── ui/              # Editor UI icons
+│ ├── data/ # JSON object definitions (NPCs, items, maps...)
+│ ├── images/ # Sprites and terrain textures
+│ └── ui/ # Editor UI icons
 │
-├── lib/                 # External libraries (JSON / GSON)
+├── lib/ # External libraries (JSON / GSON)
 │
-└── images/              # Screenshots for the README
-
-This structure separates **engine logic, data definitions, and visual assets**, making the engine modular and easy to extend.
+└── images/ # Screenshots for the README
 
 ---
 
